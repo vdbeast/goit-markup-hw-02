@@ -5,103 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li>
-                    <a href="">Studio</a>
+    <header class="header">
+        <nav class="header-navigation">
+            <a class="header-logo link" href="./index.html">WebStudio</a>
+            <ul class="header-list list">
+                <li class="header-item">
+                    <a class="header-link link" href="">Studio</a>
                 </li>
-                <li>
-                    <a href="">Portfolio</a>
+                <li class="header-item">
+                    <a class="header-link link" href="./portfolio.html">Portfolio</a>
                 </li>
-                <li>
-                    <a href="">Contacts</a>
+                <li class="header-item">
+                    <a class="header-link link" href="">Contacts</a>
                 </li>
             </ul>
         </nav>
-        <address>
-            <ul>
+        <address class="header-address">
+            <ul class="header-contact-list list">
+            <li class="header-contact-item">
+                <a class="header-contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li class="header-contact-item">
             <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-                <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+                <a class="header-contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
         </ul>
         </address>
     </header>
-    <main>
-        <section>
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
-        </section>
-        <section>
-            <h2 hidden>Features</h2>
-            <ul>
-                <li>
-                    <h3>Strategy</h3>
-                    <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+    <main class="main-2">
+        <section class="speciality">
+            <h1 hidden>Portfolio</h1>
+            <h2 hidden>Speciality</h2>
+            <ul class="speciality-filter list">
+                <li class="speciality-filter-item">
+                    <button class="speciality-btn" type="button">All</button>
                 </li>
-                <li>
-                    <h3>Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                <li class="speciality-filter-item">
+                    <button class="speciality-btn" type="button">Web Site</button>
                 </li>
-                <li>
-                    <h3>Diligence</h3>
-                    <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                <li class="speciality-filter-item">
+                    <button class="speciality-btn" type="button">App</button>
                 </li>
-                <li>
-                    <h3>Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                <li class="speciality-filter-item">
+                    <button class="speciality-btn" type="button">Design</button>
+                </li>
+                <li class="speciality-filter-item">
+                    <button class="speciality-btn" type="button">Marketing</button>
                 </li>
             </ul>
-        </section>    
-        <section>
-            <h2>What are we doing</h2>
-            <ul>
-                <li>
-                    <img src="./images/img1.jpg" alt="pc analitycs" width="360" height="300">
+            <ul class="speciality-list list">
+                <li class="speciality-item">
+                    <a class="speciality-link link" href="">
+                        <img class="speciality-img" src="./images/img-banking.jpg" alt="banking app" width="360" height="300">
+                        <h3 class="speciality-subtitle">Banking App Interface Concept</h3>
+                        <p class="speciality-description">App</p>
+                    </a>
                 </li>
-                <li>
-                    <img src="./images/img2.jpg" alt="phone chatting" width="360" height="300">
+                <li class="speciality-item">
+                    <a class="speciality-link link" href="">
+                        <img class="speciality-img" src="./images/img-payment.jpg" alt="cashless payment" width="360" height="300">
+                        <h3 class="speciality-subtitle">Cashless Payment</h3>
+                        <p class="speciality-description">Marketing</p>
+                    </a>
                 </li>
-                <li>
-                    <img src="./images/img3.jpg" alt="phone and notebook with the same pictures" width="360" height="300">
+                <li class="speciality-item">
+                    <a class="speciality-link link" href="">
+                        <img class="speciality-img" src="./images/img-medapp.jpg" alt="meditaion app" width="360" height="300">
+                        <h3 class="speciality-subtitle">Meditaion App</h3>
+                        <p class="speciality-description">App</p>
+                    </a>
                 </li>
-            </ul>
-        </section>    
-        <section>
-            <h2>Our Team</h2>
-            <ul>
-                <li>
-                    <img src="./images/mark-guerrero.jpg" alt="man-1" width="264" height="260">
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
+                <li class="speciality-item">
+                    <a class="speciality-link link" href="">
+                        <img class="speciality-img" src="./images/img-taxi.jpg" alt="taxi service" width="360" height="300">
+                        <h3 class="speciality-subtitle">Taxi Service</h3>
+                        <p class="speciality-description">Marketing</p>
+                    </a>
                 </li>
-                <li>
-                    <img src="./images/tom-ford.jpg" alt="man-2" width="264" height="260">
-                    <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
+                <li class="speciality-item">
+                    <a class="speciality-link link" href="">
+                        <img class="speciality-img" src="./images/img-screen.jpg" alt="screen illustrations" width="360" height="300">
+                        <h3 class="speciality-subtitle">Screen Illustrations</h3>
+                        <p class="speciality-description">Design</p>
+                    </a>
                 </li>
-                <li>
-                    <img src="./images/camila-garcia.jpg" alt="woman-1" width="264" height="260">
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
+                <li class="speciality-item">
+                    <a class="speciality-link link" href="">
+                        <img class="speciality-img" src="./images/img-courses.jpg" alt="online courses" width="360" height="300">
+                        <h3 class="speciality-subtitle">Online Courses</h3>
+                        <p class="speciality-description">Marketing</p>
+                    </a>
                 </li>
-                <li>
-                    <img src="./images/daniel-wilson.jpg" alt="man-3" width="264" height="260">
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
+                <li class="speciality-item">
+                    <a class="speciality-link link" href="">
+                        <img class="speciality-img" src="./images/img-instagram.jpg" alt="instagram stories concept" width="360" height="300">
+                        <h3 class="speciality-subtitle">Instagram Stories Concept</h3>
+                        <p class="speciality-description">Design</p>
+                    </a>
+                </li>
+                <li class="speciality-item">
+                    <a class="speciality-link link" href="">
+                        <img class="speciality-img" src="./images/img-food.jpg" alt="organic food" width="360" height="300">
+                        <h3 class="speciality-subtitle">Organic Food</h3>
+                        <p class="speciality-description">Web Site</p>
+                    </a>
+                </li>
+                <li class="speciality-item">
+                    <a class="speciality-link link" href="">
+                        <img class="speciality-img" src="./images/img-coffee.jpg" alt="fresh coffee" width="360" height="300">
+                        <h3 class="speciality-subtitle">Fresh Coffee</h3>
+                        <p class="speciality-description">Web Site</p>
+                    </a>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="./index.html">WebStudio</a>
-        <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    <footer class="footer">
+        <a class="footer-logo link" href="./index.html">WebStudio</a>
+        <p class="footer-description">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </footer>
 </body>
 </html>
