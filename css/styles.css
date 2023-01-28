@@ -181,6 +181,58 @@ body {
 }
 
 
+/*======================PORTFOLIO========================*/
+
+/*======================SPECIALITY========================*/
+
+.main-2 {}
+
+.speciality {}
+
+.speciality-filter {}
+
+.speciality-filter-item {}
+
+.speciality-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+
+.speciality-btn:is(:hover, :focus) {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.speciality-list {}
+
+.speciality-item {}
+
+.speciality-link {}
+
+.speciality-img {}
+
+.speciality-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.speciality-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
 
 /*======================FOOTER========================*/
 
